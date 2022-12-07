@@ -21,4 +21,9 @@ function check(playerSelection, computerSelection){
         return "tu a perdu"
     }
 };
-console.log(check(prompt("choisi"), autochoice()))
+
+function playerchoice(){
+    let choix = prompt("entrer pierre/papier/ciseaux");
+    return choix.toLocaleLowerCase()
+}
+console.log(playerchoice())
