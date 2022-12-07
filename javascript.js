@@ -1,5 +1,3 @@
-
-
 function autochoice(){
     const Number = Math.floor(Math.random()*3)
     if (Number===1){
@@ -10,4 +8,17 @@ function autochoice(){
         return "ciseaux"
     };
 };
-console.log(autochoice())
+function check(playerSelection, computerSelection){
+    if (playerSelection===computerSelection){
+        return "égalité"
+    }else if (playerSelection=="papier" && computerSelection=="pierre"){
+        return "tu a gagner"
+    }else if (playerSelection=="pierre" && computerSelection=="ciseaux"){
+        return "tu a gagner"
+    }else if (playerSelection=="ciseaux" && computerSelection=="papier"){
+        return "tu a gagner"
+    }else {
+        return "tu a perdu"
+    }
+};
+console.log(check(prompt("choisi"), autochoice()))
