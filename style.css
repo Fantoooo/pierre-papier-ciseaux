@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px purple solid;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    height: 30pc;
+    gap: 20px;
+}
+button{
+    background-color: black;
+    border: white 5px solid;
+    border-radius: 20px;
+}
