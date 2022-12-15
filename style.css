@@ -16,7 +16,11 @@ body{
     gap: 20px;
 }
 button{
-    background-color: black;
+    background-color: white;
     border: white 5px solid;
-    border-radius: 20px;
+    border-radius: 100px;
+}
+img{
+    height: 100px;
+    border-radius: 150px;
 }
